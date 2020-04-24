@@ -14,7 +14,8 @@ module.exports = {
   output: {
     filename: 'dist/index.js',
     libraryTarget: 'umd',
-    library: 'jsonapi-normalizer'
+    library: 'jsonapiNormalizer',
+    umdNamedDefine: true
   },
   plugins: [
     new webpack.optimize.OccurenceOrderPlugin(),
